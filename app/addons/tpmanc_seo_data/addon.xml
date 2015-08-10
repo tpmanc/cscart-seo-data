@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+	<id>tpmanc_seo_data</id>
+	<name>SEO data</name>
+	<priority>1000</priority>
+	<status>active</status>
+	<dependencies></dependencies>
+	<description>Настройка SEO данных сайта</description>
+	<status>active</status>
+	<settings>
+		<sections>
+            <section id="general">
+                <name>General</name>
+                <items>
+					<item id="productSeoTitle">
+						<name>Шаблон SEO заголовка для товаров</name>
+						<type>textarea</type>
+						<default_value>{category} - {product}</default_value>
+						<tooltip><![CDATA[
+							Список доступных переменых: <br>
+							<b>{categoryPath}</b> - Список категорий, разделенных "::" <br>
+							<b>{category}</b> - Главная категория товара<br>
+							<b>{product}</b> - название товара<br>
+							<b>{productCode}</b> - код товара<br>
+							<b>{price}</b> - цена товара  ]]>
+						</tooltip>
+					</item>
+					<item id="productSeoDescription">
+						<name>Шаблон SEO описания для товаров</name>
+						<type>textarea</type>
+						<default_value>{category} - {product}</default_value>
+						<tooltip><![CDATA[
+							Список доступных переменых: <br>
+							<b>{categoryPath}</b> - Список категорий, разделенных "::" <br>
+							<b>{category}</b> - Главная категория товара<br>
+							<b>{product}</b> - название товара<br>
+							<b>{productCode}</b> - код товара<br>
+							<b>{price}</b> - цена товара  ]]> 
+						</tooltip>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+</addon>
