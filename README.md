@@ -1,4 +1,4 @@
-# CS CART SEO data
+# CS-Cart SEO data
 Аддон для cs-cart cms.
 
 Позволяет настраивать :
