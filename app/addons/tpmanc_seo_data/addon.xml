@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="2.0">
     <id>tpmanc_seo_data</id>
-    <name>SEO data</name>
+    <name>SEO данные</name>
     <priority>1000</priority>
     <status>active</status>
     <dependencies></dependencies>
@@ -36,6 +36,33 @@
                             <b>{product}</b> - название товара<br>
                             <b>{productCode}</b> - код товара<br>
                             <b>{price}</b> - цена товара  ]]> 
+                        </tooltip>
+                    </item>
+                </items>
+            </section>
+            <section id="category">
+                <name>Категории</name>
+                <items>
+                    <item id="categorySeoTitle">
+                        <name>Шаблон SEO заголовка для категорий</name>
+                        <type>textarea</type>
+                        <default_value>{category}</default_value>
+                        <tooltip><![CDATA[
+                            Список доступных переменых: <br>
+                            <b>{categoryPath}</b> - Список категорий, разделенных "::" <br>
+                            <b>{category}</b> - Главная категория товара <br>
+                            <b>{productCount}</b> - Количество товаров в категории  ]]>
+                        </tooltip>
+                    </item>
+                    <item id="categorySeoDescription">
+                        <name>Шаблон SEO описания для категорий</name>
+                        <type>textarea</type>
+                        <default_value>{category}</default_value>
+                        <tooltip><![CDATA[
+                            Список доступных переменых: <br>
+                            <b>{categoryPath}</b> - Список категорий, разделенных "::" <br>
+                            <b>{category}</b> - Главная категория товара <br>
+                            <b>{productCount}</b> - Количество товаров в категории  ]]>
                         </tooltip>
                     </item>
                 </items>
