@@ -12,6 +12,12 @@
             <section id="product">
                 <name>Товары</name>
                 <items>
+                    <item id="productEnabled">
+                        <name>Включить</name>
+                        <type>checkbox</type>
+                        <default_value>0</default_value>
+                        <tooltip>Вклчюить переопределение SEO данных для товаров</tooltip>
+                    </item>
                     <item id="productSeoTitle">
                         <name>Шаблон SEO заголовка для товаров</name>
                         <type>textarea</type>
@@ -43,6 +49,12 @@
             <section id="category">
                 <name>Категории</name>
                 <items>
+                    <item id="categoryEnabled">
+                        <name>Включить</name>
+                        <type>checkbox</type>
+                        <default_value>0</default_value>
+                        <tooltip>Вклчюить переопределение SEO данных для товаров</tooltip>
+                    </item>
                     <item id="categorySeoTitle">
                         <name>Шаблон SEO заголовка для категорий</name>
                         <type>textarea</type>
@@ -70,6 +82,12 @@
             <section id="pages">
                 <name>Страницы</name>
                 <items>
+                    <item id="pageEnabled">
+                        <name>Включить</name>
+                        <type>checkbox</type>
+                        <default_value>0</default_value>
+                        <tooltip>Вклчюить переопределение SEO данных для товаров</tooltip>
+                    </item>
                     <item id="pageSeoTitle">
                         <name>Шаблон SEO заголовка для страниц</name>
                         <type>textarea</type>
